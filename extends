@@ -1,4 +1,4 @@
-// Inheritance concept sample 1
+// Inheritance concept sample 1;
 class Employee {
     double salary = 40000;
 
