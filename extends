@@ -1,0 +1,31 @@
+// Inheritance concept sample 1
+class Employee {
+    double salary = 40000;
+
+    static class Allowance extends Employee {
+        int bonus = 8000;
+    }
+
+    public static void main(String[] args) {
+        Employee employee = new Employee();
+        Allowance allowance = new Allowance();
+
+        System.out.println("The salary is " + employee.salary);
+        System.out.println("The bonus is " + allowance.bonus);
+    }
+}
+
+//Inheritance concept sample 2
+class Student {
+String name= "Mbugua";
+
+static class Regno extends Student {
+  String p= "P101/1737G/21";
+}
+ public static void main(String[] args) {
+ Student student = new Student();
+Regno regno = new  Regno();
+System.out.println("The students name is " + student.name);
+System.out.println("The registatration number is " + regno.p);
+}
+}
